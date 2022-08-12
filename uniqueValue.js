@@ -4,7 +4,11 @@ function uniqueValue(str) {
     if (word[letter]) {
       return true;
     }
+    console.log(word);
+    
     word[letter] = "exists";
+    console.log(word);
+
 
     //     if (word.indexOf(letter) !== -1) {
     //         return ("this is not an Unique word ");
@@ -15,5 +19,5 @@ function uniqueValue(str) {
      return "This is An Unique word";
   }
 
-console.log(uniqueValue("greatest"));
+console.log(uniqueValue("greate"));
 console.log(uniqueValue("love"));
